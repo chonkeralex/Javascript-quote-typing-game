@@ -1,0 +1,41 @@
+*{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    background: #FFE5B4;
+}
+
+.title {
+    background-color: #C4A484;
+    text-align: center;
+    padding: 15px;
+    color: #F5F5DC;
+}
+
+.quote-container {
+    text-align: center;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 8%;
+    align-items: end;
+  
+}
+
+.quote-type {
+    padding: 2%;
+    width: 20%;
+    font-size: 20px;
+}
+
+.quote-type::placeholder {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
